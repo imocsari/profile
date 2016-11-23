@@ -1,12 +1,12 @@
 
 .card {
-  background-color: rgba(245,244,255, 0.8);
+  background-color: rgba(245,244,255, 0.5);
   border-radius: 10px;
-  border: 1px solid rgba(0,0,0,0.2) #6495ed;
+  border: 1px inset #AE614A;
   margin: auto;
   margin-bottom: 30px;
   padding: 5px 5px 5px 5px;
-  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
   text-align: center;
   position:relative;
   width: 800px;
@@ -16,7 +16,7 @@ h1, h2 {
   font-family: 'Abhaya Libre', serif;
   line-height: 200%;
   color:#4d5591;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 ul {
@@ -44,6 +44,9 @@ td {
   font-style: italic;
   padding: auto;
 }
+td img {
+  padding: 10px;
+}
 
 #codium {
   text-align: left;
@@ -70,7 +73,8 @@ table {
 
 .tableimage {
   border-radius: 20%;
-  border: 2px solid darkgrey;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+
 }
 
 .button {
@@ -107,7 +111,7 @@ table {
   flex: auto;
 }
 #wrapper {
-background-image: url("city.jpg");
+background-image: url("background.jpg");
 background-size:cover;
 background-position: center;
 top: 0;
@@ -132,13 +136,14 @@ padding-top: 30px;
   color: #952231;
 }
 .sidebar {
-  background-color: rgba(245,244,255, 0.8);
+  background-color: rgba(245,244,255, 0.7);
   padding-top: 0px;
   width: 180px;
   height: 400px;
   margin-top: 80px;
   border-radius: 0px 10px 10px 0px;
   position: fixed;
+  border: 2px inset #AE614A;
 
 
 }
