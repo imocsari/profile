@@ -138,7 +138,7 @@ padding-top: 30px;
   height: 400px;
   margin-top: 80px;
   border-radius: 0px 10px 10px 0px;
-  position: absolute;
+  position: fixed;
 
 
 }
@@ -171,6 +171,9 @@ margin-bottom: 50px;
 font-weight: bolder;
 }
 
-#project {
+#projects {
   margin-bottom: 0px;
 }
+@media only screen
+/*and (min-device-width : 320px)*/
+and (max-device-width : 1200px) { .sidebar{ display: none; }}
