@@ -44,9 +44,7 @@ td {
   font-style: italic;
   padding: auto;
 }
-td img {
-  padding: 10px;
-}
+td img {}
 
 #codium {
   text-align: left;
@@ -138,8 +136,6 @@ padding-top: 30px;
 .sidebar {
   background-color: rgba(245,244,255, 0.7);
   padding-top: 0px;
-  width: 180px;
-  height: 400px;
   margin-top: 80px;
   border-radius: 0px 10px 10px 0px;
   position: fixed;
