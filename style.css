@@ -1,6 +1,6 @@
 
 .card {
-  background-color: rgba(245,244,255, 0.5);
+  background-color: rgba(245,244,255, 0.9);
   border-radius: 10px;
   border: 1px inset #AE614A;
   margin: auto;
@@ -44,7 +44,6 @@ td {
   font-style: italic;
   padding: auto;
 }
-td img {}
 
 #codium {
   text-align: left;
@@ -72,6 +71,7 @@ table {
 .tableimage {
   border-radius: 20%;
   box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+  padding: 10px;
 
 }
 
@@ -133,7 +133,7 @@ padding-top: 30px;
 .card h2 {
   color: #952231;
 }
-.sidebar { 
+.sidebar {
   background-color: rgba(245,244,255, 0.7);
   padding-top: 0px;
   margin-top: 80px;
@@ -154,6 +154,10 @@ padding-top: 30px;
   text-align: center;
   list-style: none;
 
+}
+
+p {
+  font-family: 'Domine', serif;
 }
 .sidebar li:hover {
   background-color: #8692A8;
