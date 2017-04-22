@@ -59,7 +59,7 @@ td {
 
 }
 table {
-  width: 1100;
+  max-width: 1100;
   color:grey;
   font-size: 16px;
   text-align: justify;
@@ -140,34 +140,36 @@ padding-top: 30px;
   color: #952231;
   font-weight: bold;
 }
-.sidebar {
+/*.sidebar {
   background-color: rgba(245,244,255, 0.7);
   padding-top: 0px;
   margin-top: 80px;
   border-radius: 0px 10px 10px 0px;
   position: fixed;
+  margin-left: 0;
   border: 2px inset #AE614A;
-  
 }
 
 .sidebar li {
     padding: 35px 35px 35px 35px;
     text-align: center;
     list-style: none;
+    background-color: red;
+    position: fixed;
 
-}
+}*/
 
 p {
   font-family: 'Domine', serif;
 }
-.sidebar li:hover {
+/*.sidebar li:hover {
   background-color: #8692A8;
   padding: 35px 35px 35px 35px;
-  margin: auto;
   border-radius: 0px 10px 10px 0px;
   list-style: none;
   color:grey;
 }
+
 
 .sidemenu a {
 font-family: 'Open Sans', sans-serif;
@@ -175,13 +177,11 @@ color: #3F3F3F;
 font-size: 18px;
 padding-top: 10px;
 margin-bottom: 50px;
-}
+}*/
 
 #projects {
   margin-bottom: 0px;
 }
-@media only screen {
-/*and (min-device-width : 320px)*/
-and (max-device-width : 1200px) { .sidebar{ display: none; }}
 
-}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 720px) {div.sidebar {visibility:hidden;}}
